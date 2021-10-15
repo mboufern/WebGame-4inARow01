@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.header{
+    background-color: rgb(87, 226, 173);
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+}
+
+.score-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name1, #name2{
+    font-size: 1.5rem;
+    width: 150px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+#score1, #score2{
+    margin-left: 20px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+#info{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#text{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    
+    font-size: 1.7rem;
+}
+
+.game-container{
+    height: 75vh;
+}
+
+.table{
+    margin: auto;
+    background-color: rgb(87, 226, 173);
+    height: 70vh;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    display: flex;
+}
+
+.column{
+    width: 10vh;
+    outline: none;
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.column:hover{
+    border: rgb(38, 153, 109) dashed 4px;
+}
+
+#c0:hover{
+    border-radius: 10px 0px 0px 10px;
+}
+
+#c6:hover{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.cell{
+    margin: auto;
+    background-color: white;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 9vh;
+}

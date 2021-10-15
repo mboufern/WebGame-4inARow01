@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 in a row</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="score-container p1">
+            <input type="text" id="name1" value="Player 1">
+            :
+            <h2 id="score1">0</h2>
+        </div>
+        <div class="score-container p2">
+            <input type="text" id="name2" value="Player 2">
+            :
+            <h2 id="score2">0</h2>
+        </div>
+    </div>
+    <div class="info-container">
+        <h2 id="info"></h2>
+    </div>
+    <div class="game-container">
+        <div class="table">
+            <button class="column" id="c0" onclick="choice(this.id)">
+                <dev class="cell" id="c06"></dev>
+                <dev class="cell" id="c05"></dev>
+                <dev class="cell" id="c04"></dev>
+                <dev class="cell" id="c03"></dev>
+                <dev class="cell" id="c02"></dev>
+                <dev class="cell" id="c01"></dev>
+                <dev class="cell" id="c00"></dev>
+            </button>
+            <button class="column" id="c1" onclick="choice(this.id)">
+                <dev class="cell" id="c16"></dev>
+                <dev class="cell" id="c15"></dev>
+                <dev class="cell" id="c14"></dev>
+                <dev class="cell" id="c13"></dev>
+                <dev class="cell" id="c12"></dev>
+                <dev class="cell" id="c11"></dev>
+                <dev class="cell" id="c10"></dev>
+            </button>
+            <button class="column" id="c2" onclick="choice(this.id)">
+                <dev class="cell" id="c26"></dev>
+                <dev class="cell" id="c25"></dev>
+                <dev class="cell" id="c24"></dev>
+                <dev class="cell" id="c23"></dev>
+                <dev class="cell" id="c22"></dev>
+                <dev class="cell" id="c21"></dev>
+                <dev class="cell" id="c20"></dev>
+            </button>
+            <button class="column" id="c3" onclick="choice(this.id)">
+                <dev class="cell" id="c36"></dev>
+                <dev class="cell" id="c35"></dev>
+                <dev class="cell" id="c34"></dev>
+                <dev class="cell" id="c33"></dev>
+                <dev class="cell" id="c32"></dev>
+                <dev class="cell" id="c31"></dev>
+                <dev class="cell" id="c30"></dev>
+            </button>
+            <button class="column" id="c4" onclick="choice(this.id)">
+                <dev class="cell" id="c46"></dev>
+                <dev class="cell" id="c45"></dev>
+                <dev class="cell" id="c44"></dev>
+                <dev class="cell" id="c43"></dev>
+                <dev class="cell" id="c42"></dev>
+                <dev class="cell" id="c41"></dev>
+                <dev class="cell" id="c40"></dev>
+            </button>
+            <button class="column" id="c5" onclick="choice(this.id)">
+                <dev class="cell" id="c56"></dev>
+                <dev class="cell" id="c55"></dev>
+                <dev class="cell" id="c54"></dev>
+                <dev class="cell" id="c53"></dev>
+                <dev class="cell" id="c52"></dev>
+                <dev class="cell" id="c51"></dev>
+                <dev class="cell" id="c50"></dev>
+            </button>
+            <button class="column" id="c6" onclick="choice(this.id)">
+                <dev class="cell" id="c66"></dev>
+                <dev class="cell" id="c65"></dev>
+                <dev class="cell" id="c64"></dev>
+                <dev class="cell" id="c63"></dev>
+                <dev class="cell" id="c62"></dev>
+                <dev class="cell" id="c61"></dev>
+                <dev class="cell" id="c60"></dev>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
